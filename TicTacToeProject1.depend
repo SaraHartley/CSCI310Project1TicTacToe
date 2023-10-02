@@ -3,22 +3,30 @@
 	<stdio.h>
 	<stdlib.h>
 
-1696213930 source:c:\users\13202\desktop\hackhathon p\csci310project1tictactoe\main.c
-	"GameBoard.h"
+1696215301 source:c:\users\13202\desktop\hackhathon p\csci310project1tictactoe\main.c
 	<stdio.h>
-	<stdlib.h>
+	"Gameboard.h"
 
-<<<<<<< Updated upstream
+1696213930 ated upstream
+
 1696030601 source:c:\users\emma hoffmann\onedrive\documents\github\csci310project1tictactoe\main.c
 	<stdio.h>
 	<stdlib.h>
-=======
-1696214057 c:\users\13202\desktop\hackhathon p\csci310project1tictactoe\gameboard.h
-	<pthread.h>
 
-1696208713 source:c:\users\13202\desktop\hackhathon p\csci310project1tictactoe\src\gameboard.cpp
+1696030601 
+
+1696215484 c:\users\13202\desktop\hackhathon p\csci310project1tictactoe\gameboard.h
+
+1696214199 source:c:\users\13202\desktop\hackhathon p\csci310project1tictactoe\src\gameboard.cpp
 	"GameBoard.h"
 
-1696208713 c:\users\13202\desktop\hackhathon p\csci310project1tictactoe\include\gameboard.h
->>>>>>> Stashed changes
+1696214199 c:\users\13202\desktop\hackhathon p\csci310project1tictactoe\include\gameboard.h
+
+1696208713 shed changes
+
+1696215484 source:c:\users\13202\desktop\hackhathon p\csci310project1tictactoe\gameboard.c
+	"Gameboard.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
 

@@ -1,6 +1,7 @@
-#include "GameBoard.h"
+#include "Gameboard.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 // Create and initialize a new game board
 GameBoard* createGameBoard() {
@@ -10,28 +11,22 @@ GameBoard* createGameBoard() {
         exit(EXIT_FAILURE);
     }
     initializeGameBoard(board);
-    // Initialize the mutex to ensure thread safety
-    pthread_mutex_init(&(board->mutex), NULL);
     return board;
 }
 
-// Initialize the game board with empty spaces
+// Initialize the 3x3 game board with empty spaces
 void initializeGameBoard(GameBoard* board) {
-    for (int i = 0; i < BOARD_SIZE; i++) {
-        for (int j = 0; j < BOARD_SIZE; j++) {
-            board->board[i][j] = '-';
-        }
-    }
+    // Use memset to set all elements to '-'
+    memset(board->board, '-', sizeof(board->board));
 }
 
-// Display the current state of the game board
+// Display the 3x3 game board
 void displayGameBoard(GameBoard* board) {
-    pthread_mutex_lock(&(board->mutex));
-    for (int i = 0; i < BOARD_SIZE; i++) {
-        for (int j = 0; j < BOARD_SIZE; j++) {
-            printf("%c ", board->board[i][j]);
+    printf("3x3 Game Board:\n");
+    for (int x = 0; x < BOARD_SIZE; x++) {
+        for (int y = 0; y < BOARD_SIZE; y++) {
+            printf("%c ", board->board[x][y]);
         }
         printf("\n");
     }
-    pthread_mutex_unlock(&(board->mutex));
 }
