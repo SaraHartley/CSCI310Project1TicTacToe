@@ -9,9 +9,9 @@
 
 1696213930 ated upstream
 
-1696030601 source:c:\users\emma hoffmann\onedrive\documents\github\csci310project1tictactoe\main.c
+1696267781 source:c:\users\emma hoffmann\onedrive\documents\github\csci310project1tictactoe\main.c
 	<stdio.h>
-	<stdlib.h>
+	"Gameboard.h"
 
 1696030601 
 
@@ -29,4 +29,17 @@
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+
+1696267781 source:c:\users\emma hoffmann\onedrive\documents\github\csci310project1tictactoe\gameboard.c
+	"Gameboard.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1696267781 c:\users\emma hoffmann\onedrive\documents\github\csci310project1tictactoe\gameboard.h
+
+1696267781 source:c:\users\emma hoffmann\onedrive\documents\github\csci310project1tictactoe\src\gameboard.cpp
+	"GameBoard.h"
+
+1696267781 c:\users\emma hoffmann\onedrive\documents\github\csci310project1tictactoe\include\gameboard.h
 

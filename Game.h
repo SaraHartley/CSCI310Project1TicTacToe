@@ -27,4 +27,12 @@ void endGame(Game* game);
 
 // Other functions we might need
 
+int checkHorizontal(char board[BOARD_SIZE][BOARD_SIZE], char player);
+int checkVertical(char board[BOARD_SIZE][BOARD_SIZE], char player);
+int checkDiagonal(char board[BOARD_SIZE][BOARD_SIZE], char player);
+
+
+
+
+
 #endif
